@@ -12,8 +12,11 @@ Step 1: Compute Lidar Point-Cloud from Range Image
 ![Image_range](images/range_image.png)
 - Visualize lidar point-cloud (ID_S1_EX2)
   - Visualize lidar point-cloud using Open3D
+
+  **Rear-bumper and tail-lights are stable features. In some specific cases, we can see car's front-lights and the wheel as the stable features**
   
   10 samples of the point cloud:
+
   ![pcl_sample](images/Picture1.png)
 
   ![pcl_sample](images/Picture2.png)
@@ -34,7 +37,6 @@ Step 1: Compute Lidar Point-Cloud from Range Image
 
   ![pcl_sample](images/Picture10.png)
 
-Rear-bumper and tail-lights are stable features. In some specific cases, we can see car's front-lights as the stable features
 
 Step 2: Creaate BEV from Lidar PCL
 - Convert sensor coordinates to BEV-map coordinates (ID_S2_EX1)
